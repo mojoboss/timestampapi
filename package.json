@@ -1,15 +1,30 @@
 {
   "name": "@mojoboss/timeapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "api for linux and normal time",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js"
+    "test": "node server.js",
+    "start": "node server.js"
   },
   "author": "mojoboss",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.13.4",
     "moment": "^2.11.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojoboss/timestampapi.git"
+  },
+  "keywords": [
+    "nodejs",
+    "timestamp",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/mojoboss/timestampapi/issues"
+  },
+  "homepage": "https://github.com/mojoboss/timestampapi#readme"
 }
