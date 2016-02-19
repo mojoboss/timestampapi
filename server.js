@@ -51,4 +51,4 @@ app.get("/:query", function(req, res){
     
 });
 
-app.listen(8000);
+app.listen(process.env.PORT || 5000);
